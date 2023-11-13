@@ -4,7 +4,7 @@ Date: Sept. 10, 2021
 Course: CS 4540, University of Utah, School of Computing
 Copyright: CS 4540 and John Huynh
 
-Github Page: https://github.com/uofu-cs4540-fall2021/ta-application-jiggly
+Github Page: https://github.com/jiggly-jo/TA-Application
 
 Project Summary:
 This is a Teachers Assistant Application where professors, teaching assistant applicants, and admins can view and edit teaching assistant specific information.
