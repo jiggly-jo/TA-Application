@@ -1,0 +1,145 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+/*Styling of this table referenced from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
+
+
+/*style for navbar username*/
+#username{
+    padding: 0;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+/*style for user indentifier like admins or applicants*/
+#user_identifier{
+    font-size: 12px;
+}
+.style_table{
+    border-collapse: collapse;
+    /*spacing on content on top and bottom*/
+    margin: 25px 0;
+    font-size: 0.9em;
+    width:100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    /*rounds out the edges of table*/
+    border-radius: 5px 5px 0 0;
+    overflow:hidden;
+
+}
+/*Creates style for header of table*/
+.style_table thead tr {
+    background-color: #B90E0A;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+/*padding for table head and table body*/
+.style_table th,
+.style_table td{
+    padding: 12px 15px;
+}
+/*Every table row make a border below it*/
+.style_table tbody tr{
+    border-bottom:1px solid #dddddd;
+
+}
+/*Every even row make the background grey*/
+.style_table tbody tr:nth-of-type(even){
+    background-color:#f3f3f3;
+}
+/*at the last row, add a border at the bottom*/
+    .style_table tbody tr:last-of-type {
+        border-bottom: 2px solid #B90E0A;
+    }
+/*if a table row is hovered, highlight the text*/
+    .style_table tbody tr:hover {
+        font-weight: bold;
+        color: #B90E0A;
+    }
+#applications_photo > img {
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*https://www.w3schools.com/css/css3_images.asp box shadow */
+}
+.header {
+    text-align: left;
+    font-size: 45px;
+    font-weight: 400;
+    color: #B90E0A;
+    margin-top: 70px;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
